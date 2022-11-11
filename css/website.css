@@ -8,10 +8,28 @@ body {
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     background-color: var(--background-yellow);
 }
+
+:not(.jumbotron) > h1 {
+    padding-top: 2%;
+    text-align: center;
+}
+form {
+    padding: 2%;
+}
+
+.col {
+    padding: 5px;
+}
+
+.check {
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+
 .bg-nav {
     background-color: var(--main-green);
 }
 
-.bg-jumbo {
+.jumbotron {
     background-color: var(--second-blue);
 }
