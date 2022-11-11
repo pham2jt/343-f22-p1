@@ -1,6 +1,17 @@
+:root {
+    --main-green: #C8FFBE;
+    --second-blue: #B4D2E7;
+    --third-purple: #e5b6e2;
+    --background-yellow: #fdfcb5;
+}
 body {
     font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    background-color: var(--background-yellow);
 }
 .bg-nav {
-    background-color: #C8FFBE;
+    background-color: var(--main-green);
+}
+
+.bg-jumbo {
+    background-color: var(--second-blue);
 }

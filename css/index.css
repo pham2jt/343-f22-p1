@@ -1,0 +1,44 @@
+/** content seperated for smaller screens **/
+
+@media screen and (min-width: 800px) {
+    .news {
+        display: flexbox;
+        
+        gap: 10px;
+    }
+    .event {
+        flex-basis: auto;
+        background-color: var(--main-green);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .event {
+        background-color: var(--main-green);
+        border-radius: 15px;
+        margin: 15px 0px;
+    }
+
+}
+
+.middle {
+    text-align: center;
+}
+
+
+.news {
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.news h2 {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+.media-object {
+    max-width: 120px;
+    padding: 10px;
+}
